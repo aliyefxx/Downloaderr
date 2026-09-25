@@ -101,7 +101,7 @@ def build_ydl_opts(custom_opts: dict | None = None) -> dict:
         opts["cookiefile"] = cookie_path
         opts["extractor_args"] = {
             "youtube": {
-                "player_client": ["web", "mweb", "android"]
+                "player_client": ["web"]
             }
         }
     else:
